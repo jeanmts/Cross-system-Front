@@ -1,0 +1,44 @@
+header {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    border-bottom: 1px solid;
+    margin-bottom: 40px;
+}
+.logo {
+    margin-bottom: 10px;
+}
+ul, li{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid;
+    width: 70%;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+.button-navigation {
+    cursor: pointer;
+    border: 1px solid;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+table,td {
+    padding: 10px;
+}
+
+table {
+    width: 70vw;
+}
+i {
+    cursor: pointer;
+}

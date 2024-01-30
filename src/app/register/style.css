@@ -1,0 +1,43 @@
+header {
+    margin: 20px;
+    border-bottom: 1px solid;
+}
+header h2 {
+    margin-bottom: 10px;
+}
+.container-main {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    width: 40vw;
+    height: 50vh;
+    border: 1px solid;
+}
+
+.container-main h5 {
+    margin-bottom: 10px;
+}
+form {
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+label, input, .container-button {
+    margin: 0;
+    padding: 0;
+}
+.container-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.button-register,.button-login {
+    all: unset;
+    cursor: pointer;
+}
+.button-login {
+    border: 1px solid;
+    padding: 6px;
+}
